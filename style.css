@@ -266,7 +266,7 @@ footer > p {
   box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 668px) {
   header {
     display: flex;
     justify-content: space-around;
