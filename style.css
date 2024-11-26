@@ -141,7 +141,7 @@ strong {
 }
 
 .box-img-main {
-  max-width: 550px;
+  width: 550px;
 }
 
 .img-profile {
@@ -185,6 +185,7 @@ strong {
   flex-direction: column;
   flex-wrap: wrap;  
   gap: 4rem;
+
 }
 
 .third-section h2 {
@@ -207,9 +208,9 @@ strong {
 }
 
 .third-section > div img {
-  max-width: 440px;
-  width: 100%;
+  width: 440px;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 
@@ -227,6 +228,7 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 50px;
 }
 
 .third-section p::selection {
@@ -305,7 +307,7 @@ footer > p {
   }
 
   section {
-    padding: 2rem 2rem;
+    padding: 2em 2em;
   }
 
   .first-section {
@@ -349,7 +351,7 @@ footer > p {
     height: 100%;
   }
 
-  .title {
+  .title1 {
     color: var(--dark5);
     font-size: 28px;
   }
@@ -363,19 +365,33 @@ footer > p {
   .third-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;  
     gap: 4rem;
   }
 
   .third-section h2{
-    font-size: 3.9rem;
+    font-size: 2.4rem;
+  }
+
+  .third-section > div img {
+    max-width: 440px;
+    width: 100%;
+    border-radius: 10px;
+    
   }
 
   .third-section p {
-  font-size: 1.2rem;
-  max-width: 440px;
-  width: 100%;
+    font-size: 1.2rem;
+    max-width: 440px;
+    width: 100%;
+  }
+
+  footer .title2 {
+    display: flex;
+    justify-content: center;
+    align-items: ;
   }
 
   footer > div {
