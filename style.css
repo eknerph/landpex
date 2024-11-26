@@ -391,7 +391,7 @@ footer > p {
   footer .title2 {
     display: flex;
     justify-content: center;
-    align-items: ;
+    align-items: center;
   }
 
   footer > div {
@@ -401,7 +401,6 @@ footer > p {
     flex-wrap: wrap;
     margin: 0 auto;
   }
-
 
 
 }
