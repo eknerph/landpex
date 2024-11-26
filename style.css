@@ -323,6 +323,7 @@ footer > p {
 
   .box-img-main {
     max-width: 350px;
+    width: 100%;
   }
 
   .second-section {
