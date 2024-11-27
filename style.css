@@ -125,7 +125,7 @@ section {
   min-width: 200px;
 }
 
-h1 {
+.first-section div h1 {
   font-size: 3rem;
   color: var(--white);
   letter-spacing: 2px;
@@ -275,12 +275,62 @@ footer > p {
   box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
 
-@media screen and (max-width: 1503px) {
-  
+@media screen and (max-width: 1020px) {
+  /* CLASSES GERAIS */
+  main {
+    flex-direction: column;
+  }
+
+  main .first-section {
+    flex-direction: column-reverse;
+  }
+
+
+  /* CABEÇALHO */
+  header {
+    display: none;
+  }
+
+  /* FIRST-SECTION */
+  section {
+    padding: 1.3rem 1.5rem;
+  }
+
+  .first-section div h1 {
+    font-size: 2.6rem;
+    justify-content: center;
+    text-align: center;  
+  }
+
+  .first-section p {
+    font-size: 1.2rem;
+    justify-content: center;
+    text-align: center;
+   
+  }
+
+  .box-img-main {
+    width: 80%;
+  }
+
+  .first-section div .btn-action {
+    
+  }
+
+
+
+
+
+
+
 }
 
 
-@media screen and (max-width: 768px) {
+
+
+
+
+/* @media screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -408,4 +458,4 @@ footer > p {
   }
 
 
-}
+} */
