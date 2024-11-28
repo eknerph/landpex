@@ -141,6 +141,8 @@ strong {
 }
 
 .box-img-main {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinitive alternate;
   width: 550px;
 }
 
@@ -191,6 +193,7 @@ strong {
 .third-section h2 {
   color: var(--white);
   font-size: 2.7rem;
+  margin-bottom: 2rem;
 }
 
 .third-section h2:hover {
@@ -203,7 +206,6 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
   flex-wrap: wrap;
 }
 
@@ -296,6 +298,10 @@ footer > p {
     padding: 1.3rem 1.5rem;
   }
 
+  .first-section {
+    gap: 2rem;
+  }
+
   .first-section div h1 {
     font-size: 2.6rem;
     justify-content: center;
@@ -310,12 +316,59 @@ footer > p {
   }
 
   .box-img-main {
-    width: 80%;
+    max-width: 280px;
+    width: 100%;
   }
 
   .first-section div {
     justify-content: center;
+    align-items: center;   
   }
+
+  /* SECOND SECTION */
+  .second-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cronog {
+    width: 390px;
+    height: 280px;  
+  }
+
+  /* THIRD SECTION */
+  .third-section {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .third-section div {
+    flex-direction: column;    
+  }
+
+  .third-section > div img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }  
+  
+  .third-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    width: 100%;
+    text-align: justify;
+    color: var(--cyan1);
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+  } 
+
+  /* FOOTER */
+  footer .title2 {
+    text-align: center;
+}
 
 
 
@@ -330,7 +383,7 @@ footer > p {
 
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -458,4 +511,4 @@ footer > p {
   }
 
 
-}
+} */
